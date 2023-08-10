@@ -1,0 +1,26 @@
+html{
+    padding: 0;
+    margin: 0;
+}
+p{
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+/* trabajo en el header */
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 45px;
+    margin-bottom: 15%;
+}
+header button{
+    background-color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 100px;
+    padding: 0px 35px;
+    color: #FD53C0;
+    border: 1px solid #FD53C0;
+}
