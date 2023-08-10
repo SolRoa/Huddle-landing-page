@@ -41,6 +41,7 @@ header button{
     font-family: 'Raleway', sans-serif;
     font-size: 51px;
     margin: 0;
+    color: #002326;
 }
 .hero p{
     width: 38%;
@@ -61,7 +62,7 @@ header button{
 
 /* trabajo en la seccion herox2 */
 .herox2{
-    margin-bottom: 15%;
+    margin-bottom: 10%;
 }
 .img-herox2{
    display: flex;
@@ -85,4 +86,73 @@ header button{
 .mensajes{
     margin-right: 70px;
 }
+
+
+
+/* trabajo en la seccion grow */ 
+.grow{
+    *background-color: #F6FBFF;
+}
+.contenedor1{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    left: 0;
+    overflow: hidden;
+}
+.wave1{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(images/bg-section-top-desktop-1.svg);
+    background-repeat: no-repeat;
+}
+.contenedor2{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    /* left: 0;
+    overflow: hidden; */
+
+}
+.wave2{
+    background-image: url(images/bg-section-bottom-desktop-1.svg);
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+
+}
+
+
+
+
+
+.grow-todo{
+    /* background-color: red; */
+    margin-top: -40px;
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    background-color: #F6FBFF;
+}
+.grow-texto{
+    margin-left: 45px;
+}
+.grow-texto h1{
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    font-size: 42px;
+    color: #002326;
+}
+.grow-texto p{
+    width: 70%;
+}
+.grow-img{
+    width: 40%;
+    margin-right: 45px;
+}
+
 
