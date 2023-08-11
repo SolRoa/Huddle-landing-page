@@ -90,9 +90,6 @@ header button{
 
 
 /* trabajo en la seccion grow */ 
-.grow{
-    *background-color: #F6FBFF;
-}
 .contenedor1{
     position: relative;
     width: 100%;
@@ -173,3 +170,57 @@ header button{
 }
 
 
+
+/* trabajo en la seccion grow */
+.contenedor3{
+    position: relative;
+    width: 100%;
+    height: 190px;
+    left: 0;
+    overflow: hidden;
+}
+.wave3{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(images/bg-section-top-desktop-2.svg);
+    background-repeat: no-repeat;
+}
+.contenedor2{
+    position: relative;
+    width: 100%;
+    height: 200px;
+}
+.wave2{
+    background-image: url(images/bg-section-bottom-desktop-2.svg);
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+
+}
+.grow-todo{
+    margin-top: -40px;
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    background-color: #F6FBFF;
+}
+.grow-texto{
+    margin-left: 45px;
+}
+.grow-texto h1{
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 20px;
+    font-size: 42px;
+    color: #002326;
+}
+.grow-texto p{
+    width: 70%;
+}
+.grow-img{
+    width: 40%;
+    margin-right: 45px;
+}
