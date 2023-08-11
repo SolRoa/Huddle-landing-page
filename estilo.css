@@ -149,7 +149,8 @@ header button{
 .conversations{
     display: flex;
     align-items: center;
-    margin-top: 5%
+    margin-top: 5%;
+    margin-bottom: 8%;
 }
 .conversations img{
     width: 40%;
@@ -172,6 +173,9 @@ header button{
 
 
 /* trabajo en la seccion grow */
+.grow{
+    margin-bottom: 5%;
+}
 .contenedor3{
     position: relative;
     width: 100%;
@@ -224,3 +228,7 @@ header button{
     width: 40%;
     margin-right: 45px;
 }
+
+
+
+
