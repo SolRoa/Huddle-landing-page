@@ -29,7 +29,7 @@ header button{
 
 /* trabajo en el hero */
 .hero{
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
 .hero{
     display: flex;
@@ -51,9 +51,11 @@ header button{
 .hero button{
     background-color: #FD53C0;
     color: #FFFFFF;
+    font-size: 18px;
+    font-weight: bold;
     border: none;
     margin-bottom: 30px;
-    padding: 20px 90px;
+    padding: 20px 70px;
     border-radius: 50px;
     box-shadow: 5px 5px #DEE2E5;
 }
@@ -69,6 +71,7 @@ header button{
    justify-content: center;
 }
 .comunidades-mensajes{
+    margin-top: 110px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -172,7 +175,7 @@ header button{
 
 
 
-/* trabajo en la seccion grow */
+/* trabajo en la seccion users */
 .users{
     margin-bottom: 5%;
 }
@@ -234,7 +237,6 @@ header button{
 
 /* trabajo en la seccion ready */
 .ready{
-    background-color: antiquewhite;
     margin-bottom: 5%;
     display: flex;
     align-items: center;
@@ -263,7 +265,11 @@ header button{
 
 
 /* trabajo en el footer */
+footer{
+    margin-top: 10%;
+}
 .footer-todo{
+    padding-top: 10%;
     background-color: #00252E;
     display: flex;
     color: #FFFFFF;
@@ -287,7 +293,7 @@ header button{
     margin-left: 45px;
 }
 .parrafo1{
-    width: 55%;
+    width: 70%;
     margin-top: 30px;
 }
 .telefono{
