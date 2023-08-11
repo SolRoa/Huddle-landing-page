@@ -232,3 +232,28 @@ header button{
 
 
 
+/* trabajo en la seccion ready */
+.ready{
+    background-color: antiquewhite;
+    margin-bottom: 5%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.ready h1{
+    /* text-align: center; */
+    font-family: 'Raleway', sans-serif;
+    font-size: 45px;
+    margin: 0;
+    color: #002326;
+    margin-bottom: 30px;
+}
+.ready button{
+    background-color: #FD53C0;
+    color: #FFFFFF;
+    border: none;
+    margin-bottom: 30px;
+    padding: 20px 90px;
+    border-radius: 50px;
+    box-shadow: 5px 5px #DEE2E5;
+}
