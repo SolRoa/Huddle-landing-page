@@ -173,7 +173,7 @@ header button{
 
 
 /* trabajo en la seccion grow */
-.grow{
+.users{
     margin-bottom: 5%;
 }
 .contenedor3{
@@ -205,26 +205,26 @@ header button{
     background-repeat: no-repeat;
 
 }
-.grow-todo{
+.users-todo{
     margin-top: -40px;
     padding-top: 50px;
     display: flex;
     align-items: center;
     background-color: #F6FBFF;
 }
-.grow-texto{
+.users-texto{
     margin-left: 45px;
 }
-.grow-texto h1{
+.users-texto h1{
     font-family: 'Raleway', sans-serif;
     margin-bottom: 20px;
     font-size: 42px;
     color: #002326;
 }
-.grow-texto p{
+.users-texto p{
     width: 70%;
 }
-.grow-img{
+.users-img{
     width: 40%;
     margin-right: 45px;
 }
@@ -251,6 +251,8 @@ header button{
 .ready button{
     background-color: #FD53C0;
     color: #FFFFFF;
+    font-weight: bold;
+    font-size: 20px;
     border: none;
     margin-bottom: 30px;
     padding: 20px 90px;
@@ -261,24 +263,40 @@ header button{
 
 
 /* trabajo en el footer */
-footer{
+.footer-todo{
+    background-color: #00252E;
     display: flex;
-    align-items: center;
+    color: #FFFFFF;
+}
+.contenedor4{
+    position: relative;
+    width: 100%;
+    height: 150px;
+    left: 0;
+    overflow: hidden;
+}
+.wave5{
+    background-image: url(images/bg-footer-top-desktop.svg);
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
 }
 .footer-iz{
     margin-left: 45px;
 }
 .parrafo1{
-    background-color: #FD53C0;
     width: 55%;
+    margin-top: 30px;
 }
 .telefono{
     display: flex;
     align-items: center;
     width: 280px;
+    margin-left: -15px;
 }
 .telefono img{
-    background-color: #FD53C0;
     transform: scale(.8);
     padding: 5%;
 }
@@ -286,9 +304,45 @@ footer{
     display: flex;
     align-items: center;
     width: 280px;
+    margin-left: -15px;
 }
 .mail img{
-    background-color: #FD53C0;
     transform: scale(.8);
     padding: 5%;
+}
+.redes{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.redes img{
+    width: 30px;
+}
+.footer-dr{
+    margin-right: 45px;
+    margin-left: 220px;
+}
+.footer-dr h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+}
+.footer-dr p{
+    width: 55%;
+}
+input{
+    border: none;
+    padding: 15px 85px;
+    border-radius: 5px;
+}
+footer button{
+    background-color: #FD53C0;
+    color: #FFFFFF;
+    font-weight: bold;
+    border: none;
+    margin-left: 40px;
+    margin-top: 20px;
+    padding: 15px 30px;
+    border-radius: 5px;
 }
