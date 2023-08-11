@@ -257,3 +257,38 @@ header button{
     border-radius: 50px;
     box-shadow: 5px 5px #DEE2E5;
 }
+
+
+
+/* trabajo en el footer */
+footer{
+    display: flex;
+    align-items: center;
+}
+.footer-iz{
+    margin-left: 45px;
+}
+.parrafo1{
+    background-color: #FD53C0;
+    width: 55%;
+}
+.telefono{
+    display: flex;
+    align-items: center;
+    width: 280px;
+}
+.telefono img{
+    background-color: #FD53C0;
+    transform: scale(.8);
+    padding: 5%;
+}
+.mail{
+    display: flex;
+    align-items: center;
+    width: 280px;
+}
+.mail img{
+    background-color: #FD53C0;
+    transform: scale(.8);
+    padding: 5%;
+}
